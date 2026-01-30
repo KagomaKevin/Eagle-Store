@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.banner{
+    text-align: center;
+    top: 4em;
+    position: relative;
+    height: 400px;
+   
+     background-image:linear-gradient( rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.705)),url("../images/LOGO/banner.jpg");
+}
+ .searchs{
+    position: relative;
+    margin-left: 40em;
+    top: 8em;
+}
+
+.searchs input{
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 3px 4px 2px rgba(37, 37, 37, 0.466);
+    height: 30px;
+    border: none;
+    width: 300px;
+}
+.banner h1{
+    top: 6em;
+    position: relative;
+    color: white;
+}
+
+.product_text{
+    padding: 10px;
+    border-left: 3px solid orange;
+    top: 11em;
+    position: relative;
+}
+
+.Arrival_box{
+    position: relative;
+    top: 15em;
+}
+
+
+.New_arrival button{
+    opacity: 0;
+    width: 0;
+    position: relative;
+    top: -22px;
+    cursor: pointer;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
+    transition: .3s ease-in-out;
+}
+
+.New_arrival:hover button{
+    opacity: 1;
+    top: -13px;
+    width: 220px;
+   color:white;
+   background-color: orange;
+   transition: .3s ease-in-out;
+}

@@ -1,0 +1,116 @@
+
+/*========================================*/
+
+.footer_box{
+    display: flex;
+    gap: 8em;
+    padding: 30px;
+    
+    
+}
+.all{
+    top: 30em;
+    position: relative;
+       background-color: black;
+}
+
+.logos h2 span{
+    color: orange;
+    font-family: cursive;
+}
+
+.logos p{
+    color: white;
+}
+
+.logos img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.link h3{
+    color: white;
+}
+
+.social h3{
+    color: white;
+}
+.newsletter h3{
+    color: white;
+}
+
+.newsletter p{
+    position: relative;
+    top: 10px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: white;
+}
+.footer_box  .social ol li,a{
+    color: orange;
+    padding: 10px;
+    font-size: large;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.footer_box  .link ol li,a{
+    
+    font-size: large;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.newsletter form{
+    padding: 10px;
+    position: relative;
+    left: -10px;
+    
+}
+
+.newsletter form input,button{
+    margin: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+.newsletter hr{
+    border: none;
+    height: 3px;
+    border-radius: 10px;
+    background-color: orange;
+    width: 150px;
+}
+.newsletter input{
+    color: white;
+    background-color: transparent;
+}
+.newsletter button{
+     background-color: orange;
+    border-radius: 100px;
+    border: none;
+    width: 253px;
+     font-size: large;
+    color: white;
+     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.newsletter button:hover{
+    color: black;
+    background-color:white;
+    border-radius: 0px;
+    transition: .5s ease-in-out;
+  
+}
+
+footer{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
