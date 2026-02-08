@@ -172,7 +172,7 @@ ul li a{
  }
 
 .products button{
-    opacity: 1;
+    opacity: 0;
     width: 10px;
     position: relative;
     top: -22px;
